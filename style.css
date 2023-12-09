@@ -42,6 +42,10 @@
 }
 
 
+.communitytext{
+    margin-bottom: 10px;
+
+}
 
 .commtext{
     font-size: 40px;
@@ -56,13 +60,13 @@
 
 .commjoin{
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     background-color:#e04642 ;
     border-radius: 10px;
     margin-left: 30px;
     margin-top: 10px;
-    height: 40px;
-    width: 200px;
+    height: 60px;
+    width: 300px;
 
 }
 
@@ -77,6 +81,7 @@
 }
 
 .birthdayparties{
+    
     border-radius: 20px;
     gap: 5rem;
     display: flex;
@@ -101,8 +106,49 @@
 }
 
 .bptext h2{
-    margin-top: 30px;
+    margin-top: 5px;
     font-size: 45px;
+}
+
+.socialmedia{
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #FF0000 ;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+
+}
+
+.button2{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    background:  linear-gradient(45deg, #e1306c, #fd1d1d, #c13584,#5851db) ;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+
+}
+
+.book{
+    margin-top: 5px;
+    color: #f6b44e;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black ;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+
 }
 
 
@@ -112,9 +158,3 @@
     font-weight: bold;
 }
 
-
-@media (width < 780px){
-    header{
-        padding-left: 20px;
-    }
-}
